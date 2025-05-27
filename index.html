@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Típicas Colombianas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="main-title">Flores Típicas de Colombia</h1>
+            <p class="subtitle">Descubre la belleza natural de nuestro país</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#flores" class="nav-link">Flores</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">La Diversidad Floral de Colombia</h2>
+                    <p class="hero-text">
+                        Colombia es considerado uno de los países con mayor biodiversidad del mundo, 
+                        y sus flores son un reflejo de esta increíble riqueza natural. 
+                        Desde las alturas de los Andes hasta las selvas tropicales, 
+                        nuestro territorio alberga especies florales únicas y extraordinarias.
+                    </p>
+                    <button class="cta-button" onclick="scrollToFlores()">Explorar Flores</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flores Section -->
+        <section id="flores" class="flores-section">
+            <div class="container">
+                <h2 class="section-title">Las 5 Flores Más Representativas</h2>
+                
+                <div class="flores-grid">
+                    <!-- Orquídea Cattleya -->
+                    <div class="flower-card" data-flower="orquidea">
+                        <div class="card-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cattleya_trianae_-_Flickr_-_Dick_Culbert.jpg/800px-Cattleya_trianae_-_Flickr_-_Dick_Culbert.jpg" alt="Orquídea Cattleya Trianae">
+                            <div class="card-overlay">
+                                <button class="learn-more-btn">Conocer más</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Orquídea Cattleya Trianae</h3>
+                            <p class="card-description">Flor Nacional de Colombia, símbolo de elegancia y belleza.</p>
+                        </div>
+                    </div>
+
+                    <!-- Heliconia -->
+                    <div class="flower-card" data-flower="heliconia">
+                        <div class="card-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Heliconia_rostrata_BotGardBln1105a.jpg/800px-Heliconia_rostrata_BotGardBln1105a.jpg" alt="Heliconia">
+                            <div class="card-overlay">
+                                <button class="learn-more-btn">Conocer más</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Heliconia</h3>
+                            <p class="card-description">Conocida como "Ave del Paraíso", típica de climas tropicales.</p>
+                        </div>
+                    </div>
+
+                    <!-- Flor de Mayo -->
+                    <div class="flower-card" data-flower="mayo">
+                        <div class="card-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cattleya_mossiae.jpg/800px-Cattleya_mossiae.jpg" alt="Flor de Mayo">
+                            <div class="card-overlay">
+                                <button class="learn-more-btn">Conocer más</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Flor de Mayo</h3>
+                            <p class="card-description">Orquídea de gran tamaño que florece en el mes de mayo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Anthurium -->
+                    <div class="flower-card" data-flower="anthurium">
+                        <div class="card-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Anthurium_andraeanum_001.JPG/800px-Anthurium_andraeanum_001.JPG" alt="Anthurium">
+                            <div class="card-overlay">
+                                <button class="learn-more-btn">Conocer más</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Anthurium</h3>
+                            <p class="card-description">Flor de corazón rojo, símbolo de hospitalidad y amor.</p>
+                        </div>
+                    </div>
+
+                    <!-- Passiflora -->
+                    <div class="flower-card" data-flower="passiflora">
+                        <div class="card-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Passiflora_caerulea_close.jpg/800px-Passiflora_caerulea_close.jpg" alt="Passiflora">
+                            <div class="card-overlay">
+                                <button class="learn-more-btn">Conocer más</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Passiflora</h3>
+                            <p class="card-description">Flor de la pasión, con una estructura única y fascinante.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería Section -->
+        <section id="galeria" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Galería de Flores</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Orqu%C3%ADdeas_del_Jard%C3%ADn_Bot%C3%A1nico_de_Bogot%C3%A1.jpg/600px-Orqu%C3%ADdeas_del_Jard%C3%ADn_Bot%C3%A1nico_de_Bogot%C3%A1.jpg" alt="Orquídeas variadas">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Heliconia_bihai_L._f._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%286%29.jpg/600px-Heliconia_bihai_L._f._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%286%29.jpg" alt="Heliconia en su hábitat">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Anthurium_scherzerianum_2.jpg/600px-Anthurium_scherzerianum_2.jpg" alt="Anthurium rojo">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Passiflora_vitifolia_-_Blue_Crown_Passion_Flower_2.jpg/600px-Passiflora_vitifolia_-_Blue_Crown_Passion_Flower_2.jpg" alt="Passiflora azul">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Flores Típicas de Colombia</h3>
+                    <p>Descubre la belleza natural de nuestro país a través de sus flores más representativas.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Útiles</h3>
+                    <ul>
+                        <li><a href="https://www.biodiversidad.co/">Instituto Humboldt</a></li>
+                        <li><a href="https://www.sinchi.org.co/">SINCHI</a></li>
+                        <li><a href="https://www.icn.unal.edu.co/">ICN - UNAL</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: info@florescolombianas.co</p>
+                    <p>Teléfono: +57 (1) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Flores Típicas de Colombia. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para información detallada -->
+    <div id="flower-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
